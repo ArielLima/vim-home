@@ -30,6 +30,9 @@ Plugin 'airblade/vim-gitgutter'
 " Plugin to add easily change surrounding pairs
 Plugin 'tpope/vim-surround'
 
+" Plugin to add git functionality in vim
+Plugin 'tpope/vim-fugitive'
+
 " Now we can turn our filetype functionality back on
 "
 filetype plugin indent on
