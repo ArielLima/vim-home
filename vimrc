@@ -21,6 +21,15 @@ Plugin 'Buffergator'
 " Plugin to insert or delete brackets, parens, quotes in pair.
 Plugin 'jiangmiao/auto-pairs'
 
+" Plugin to add power commenting to vim
+Plugin 'scrooloose/nerdcommenter'
+
+" Plugin to add git functionality to vim
+Plugin 'airblade/vim-gitgutter'
+
+" Plugin to add easily change surrounding pairs
+Plugin 'tpope/vim-surround'
+
 " Now we can turn our filetype functionality back on
 "
 filetype plugin indent on
