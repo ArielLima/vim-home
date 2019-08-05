@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/ari-work/non-go/src/github.com/openshift/aws-account-operator'
+let g:netrw_dirhist_2='/home/ari-work/non-go/src/github.com/openshift'
+let g:netrw_dirhist_3='/home/ari-work/non-go/src/github.com/openshift/aws-account-operator'
+let g:netrw_dirhist_4='/home/ari-work/non-go/src/github.com/openshift/aws-account-operator/pkg'
+let g:netrw_dirhist_5='/home/ari-work/non-go/src/github.com/openshift/aws-account-operator/pkg/controller'
+let g:netrw_dirhist_6='/home/ari-work/non-go/src/github.com/openshift/aws-account-operator/pkg/controller/account'
