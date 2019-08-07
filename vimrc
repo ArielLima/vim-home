@@ -6,34 +6,26 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" This is the Vundle package, which can be found on GitHub.
-" For GitHub repos, you specify plugins using the
-" 'user/repository' format
+" Options
+set number
+
+" Utilities
 Plugin 'gmarik/vundle'
-
-" We could also add repositories with a ".git" extension
-Plugin 'scrooloose/nerdtree.git'
-
-" To get plugins from Vim Scripts, you can reference the plugin
-" by name as it appears on the site
+Plugin 'scrooloose/nerdtree'
 Plugin 'Buffergator'
-
-" Plugin to insert or delete brackets, parens, quotes in pair.
 Plugin 'jiangmiao/auto-pairs'
-
-" Plugin to add power commenting to vim
 Plugin 'scrooloose/nerdcommenter'
-
-" Plugin to add git functionality to vim
 Plugin 'airblade/vim-gitgutter'
-
-" Plugin to add easily change surrounding pairs
 Plugin 'tpope/vim-surround'
-
-" Plugin to add git functionality in vim
 Plugin 'tpope/vim-fugitive'
+Plugin 'tc50cal/vim-terminal'
 
-" Now we can turn our filetype functionality back on
-"
 filetype plugin indent on
 
+" NerdTree
+" Launch NerdTree when vim opens
+autocmd vimenter * NERDTree
+
+" Launch NerdTree on vim without file automatically
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
