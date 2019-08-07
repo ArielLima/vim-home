@@ -8,6 +8,7 @@ call vundle#rc()
 
 " Options
 set number
+set mouse=a
 
 " Utilities
 Plugin 'gmarik/vundle'
