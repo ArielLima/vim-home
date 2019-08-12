@@ -19,7 +19,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
-Plugin 'tc50cal/vim-terminal'
+Plugin 'ajh17/VimCompletesMe'
 
 filetype plugin indent on
 
